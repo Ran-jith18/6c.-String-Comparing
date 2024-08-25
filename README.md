@@ -1,1 +1,19 @@
 # 6c.-String-Comparing
+#include <stdio.h>
+#include <string.h>
+int main()
+
+{
+     char a[20] = "SKASC";
+     char b[20] = "INDIA";
+
+     if (strcmp(a, b) ==0)
+     {
+        printf(" Both the strings are equal");
+     }
+else
+      {
+         printf("Both are different");
+      }
+     return 0;
+}
